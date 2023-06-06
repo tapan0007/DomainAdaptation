@@ -25,3 +25,9 @@ from torchvision.utils import make_grid
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
 print(device)
+
+CSV_PATH = '../data/sample/sample_labels.csv'
+
+IMG_DIR = '../data/sample/sample/sample/images/'
+
+    
